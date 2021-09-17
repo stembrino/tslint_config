@@ -1,0 +1,30 @@
+{
+  "extends": ["tslint:recommended"],
+  "rules": {
+    "no-reference": false,
+    "array-type": false,
+    "no-conditional-assignment": true,
+    "no-consecutive-blank-lines": true,
+    "no-console": false,
+    "triple-equals": [true, "allow-null-check", "allow-undefined-check"],
+    "no-empty": true,
+    "no-debugger": true,
+    "only-arrow-functions": false,
+    "no-trailing-whitespace": true,
+    "whitespace": [
+      true,
+      "check-decl",
+      "check-branch",
+      "check-operator",
+      "check-typecast",
+      "check-type",
+      "check-preblock",
+      "check-postbrace"
+    ],
+    "import-spacing": true,
+    "semicolon": [true, "always"]
+  },
+  "linterOptions": {
+    "exclude": ["node_modules/", "bower_components/", "ad-ui-contact-mgr-api/"]
+  }
+}
